@@ -1,0 +1,103 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    bottom: 20px;
+    margin: 0;
+    flex:1;
+    padding: 0 2rem;
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+.mainHeader .first_half {
+    color: black;
+    margin-right: 10px;
+}
+.mainHeader .second_half {
+    color: rgb(247, 166, 17);
+}
+
+.ratings, .details {
+    color: rgb(97, 94, 94);
+    font-size: 0.7rem;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.reviewIcons {
+    height: 15px;
+    margin-left: 10px;
+
+}
+
+.middleRow {
+    display: flex;
+    justify-content:space-around;
+    height: 50%;
+    margin-top: 50px;
+}
+
+.leftColumn {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+#hero {
+    object-fit:cover;
+    height: 15rem;
+    width:auto
+}
+
+.rightColumn {
+    width:auto;
+    height: 100%;
+    padding-right: 3rem;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.footerColumn {
+    position: relative;
+    padding-top: 4rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(97, 94, 94);
+    font-size: 0.7rem;
+    bottom: 20px;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: inherit;
+    padding-right: 1.5rem;
+
+}
+
+.footerIcons {
+    display: flex;
+    flex-shrink: inherit;
+    height: 2rem;
+    margin: 0 1rem;
+}

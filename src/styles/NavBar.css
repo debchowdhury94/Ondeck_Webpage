@@ -1,0 +1,58 @@
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.tryForFree {
+    background-color: rgb(3, 59, 17);
+    border: 0;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding: 5px 20px;
+    border-radius: 0.2rem;
+    height: 35px;
+    text-wrap: nowrap;
+}
+
+.navLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    width: 25rem;
+    color: rgb(97, 94, 94);
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.links:hover, .tryForFree:hover, .signIn:hover {
+    cursor:pointer;
+}
+
+.signIn {
+    font-size: 0.7rem;
+    color: rgb(97, 94, 94);
+    display: flex;
+    align-items: center;
+    padding: 0.7rem; 
+    text-wrap: nowrap;
+}
+
+#tryFreeContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+    padding-right: 3rem;
+    flex-wrap: nowrap;
+}
+
+
